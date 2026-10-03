@@ -8,7 +8,7 @@
     "mcp-doctor": "./src/cli.mjs"
   },
   "scripts": {
-    "test": "node --test test/hosts.test.mjs test/scopes.test.mjs test/report.test.mjs test/connectors.test.mjs test/gitconfig.test.mjs",
+    "test": "node --test test/hosts.test.mjs test/scopes.test.mjs test/report.test.mjs test/connectors.test.mjs test/gitconfig.test.mjs test/checks.test.mjs",
     "check": "node src/cli.mjs"
   },
   "engines": {
