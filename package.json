@@ -1,0 +1,17 @@
+{
+  "name": "mcp-doctor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP 环境体检工具：自动诊断 hosts 屏蔽、DNS 异常、端口不通、令牌权限不足等常见故障",
+  "type": "module",
+  "bin": {
+    "mcp-doctor": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/hosts.test.mjs test/scopes.test.mjs test/report.test.mjs test/connectors.test.mjs test/gitconfig.test.mjs",
+    "check": "node src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
